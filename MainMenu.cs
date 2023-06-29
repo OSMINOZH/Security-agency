@@ -1,27 +1,18 @@
 ﻿using MaterialSkin;
 using MaterialSkin.Controls;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
+using System.Windows.Forms;
 
 namespace Diplom
 {
     public partial class MainMenu : MaterialForm
     {
-
-
-        public bool carPanelOpen = false, ndvPanelOpen = false, clientPanelOpen = false, gbrPanelOpen = false, contractPanelOpen = false, alarmPanelOpen = false;
-        public int SensorTriggered = 0, timerTo = 900, timerToMchs = 900; // Время до ГБР (15 минут)
-        public bool DisableIgnition = false, DisableSensors = false, EmergencyResponseTeam = false, DataFromDB = false, MchsSent = false;
+        public bool carPanelOpen = false, ndvPanelOpen = false, clientPanelOpen = false, gbrPanelOpen = false, contractPanelOpen = false, alarmPanelOpen = false; // Все панели
+        public int SensorTriggered = 0, timerTo = 900, timerToMchs = 900, timerToRand = 150, randTime = 0; // Время до ГБР (15 минут) // Все счётчики
+        public bool DisableIgnition = false, DisableSensors = false, EmergencyResponseTeam = false, DataFromDB = false, MchsSent = false, RandSelEnabled = false; // Элементы управления
+        public Random random = new Random(); // Рандомизирует переменную randTime
         //CAR BELOW
         public string carID, carModel, carBrand, carNumbers; // Empty for the start
         //CAR ENDS HERE
@@ -35,13 +26,13 @@ namespace Diplom
             ShowHidePanels("All");
             this.security.EndInit();
             UserInfoLABEL.Text = username;
-            // MaterialSkin
+            // MaterialSkin // Ниже код визуального интерфейса
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
         }
-        private void MainMenu_Load(object sender, EventArgs e)
+        private void MainMenu_Load(object sender, EventArgs e) // Загружает данные из бд в таблицу
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "security.Car". При необходимости она может быть перемещена или удалена.
             this.carTableAdapter.Fill(this.security.Car);
@@ -64,13 +55,195 @@ namespace Diplom
 
         }
 
-        private void MainMenu_FormClosed(object sender, FormClosedEventArgs e) // Standart closing form 
+        private void MainMenu_FormClosed(object sender, FormClosedEventArgs e) // Standart closing form // Закрывает форму и чистит логи
         {
             File.WriteAllText(@"log.txt", string.Empty); // Cleares log file // Delete after tests // !!!!!!!!!!!!!!!!!!!!!!!!!!
             this.Close();
-        }
-        // DataBase Control Below
+        } 
 
+        private void timer1_Tick(object sender, EventArgs e) // Таймер // Раз в секунду выполняет какой-то код
+        {
+            if (RandSelEnabled && timerToRand!=0) // Рандомизация времени запуска датчиков // ТЕСТ
+            {
+                randTime--;
+
+                if (randTime <= 0)
+                {
+                    RandomiseSelection(); // Вызывает раз в сколько-то секунд
+                    randTime = random.Next(1, 16); // Генерация случайного числа от 1 до 15 секунд
+                }
+            }
+            if ((SensorTriggered >= 3) && (!EmergencyResponseTeam)) // Не дает вызывать ГБР если больше 3-х срабатываний или если гбр уже едет
+            {
+                if (carPanelOpen)
+                {
+                    CreateLog("MultipleSensors", $"[{carID}] {carBrand} {carModel} ({carNumbers})", SensorTriggered.ToString(), "");
+                    SentEmergencyBTN_Click(sender, e);
+                }
+                else if (ndvPanelOpen)
+                {
+                    CreateLog("NdvMultipleSensors", $"[{ndvID}] г.{ndvCity} улица {ndvStreet}", SensorTriggered.ToString(), "");
+                    EmergencyTeamSentNdvBTN_Click(sender, e);
+                }
+            }
+            if ((EmergencyResponseTeam) && (timerTo != 0)) // ГБР
+            {
+                timerTo -= 1; // Отсчёт прибытия ГБР
+                if (carPanelOpen)
+                {
+                    CurrTimeToGbrLABEL.Text = (timerTo / 60).ToString();
+                }
+                else if (ndvPanelOpen)
+                {
+                    NdvCurrTimeToGbrLABEL.Text = (timerTo / 60).ToString();
+                }
+            }
+            else if ((EmergencyResponseTeam) && (timerTo == 0)) // Когда уже ГБР прибыла
+            {
+                if (carPanelOpen)
+                {
+                    CreateLog("GbrArrived", $"[{carID}] {carBrand} {carModel} ({carNumbers})", SensorTriggered.ToString(), UserInfoLABEL.Text);
+                    CurrStatusLABEL.Text = "ГБР прибыла на место происшествия";
+                }
+                else if (ndvPanelOpen)
+                {
+                    CreateLog("GbrArrived", $"[{ndvID}] г.{ndvCity} улица {ndvStreet}", SensorTriggered.ToString(), UserInfoLABEL.Text);
+                    NdvCurrStatusLABEL.Text = "ГБР прибыла на место происшествия";
+                }
+                EmergencyResponseTeam = false;
+                timerTo = 900; // Сброс значения
+            }
+            if ((MchsSent) && (timerToMchs != 0)) // МЧС
+            {
+                timerToMchs -= 1; // Отсчёт прибытия МЧС
+            }
+            else if ((MchsSent) && (timerToMchs == 0))
+            {
+                CreateLog("MchsArrived", $"[{ndvID}] г.{ndvCity} улица {ndvStreet}", SensorTriggered.ToString(), UserInfoLABEL.Text);
+                NdvCurrStatusLABEL.Text = "МЧС прибыл на охраняемый объект";
+                MchsSent = false;
+                timerToMchs = 900; // Сброс значения
+            }
+            CarLogTB.Text = File.ReadAllText(@"log.txt").ToString(); // Refreshes log.txt
+            NdvLogTB.Text = File.ReadAllText(@"log.txt").ToString(); // Refreshes log.txt
+        }
+
+        // Randomise Selection Below // Связано с ТЕСТОМ (рандомизация)
+        private void LockAllRadBTN(bool enable) // Скрывает кнопки на панелях при тесте
+        {
+            if (enable)
+            {
+                if (carPanelOpen)
+                {
+                    carRandomiseBTN.Visible = false;
+                    endCarRandomiseBTN.Visible = true;
+                    FrontDoorSensorRBTN.Enabled = false;
+                    RearDoorSensorRBTN.Enabled = false;
+                    HoodSensorRBTN.Enabled = false;
+                    TrunkSensorRBTN.Enabled = false;
+                    BatterySensorRBTN.Enabled = false;
+                    IgnitionRBTN.Enabled = false;
+                }
+                else if (ndvPanelOpen)
+                {
+                    ndvRandomiseBTN.Visible = false;
+                    endNdvRandomiseBTN.Visible = true;
+                    DipRBTN.Enabled = false;
+                    IkRBTN.Enabled = false;
+                    KtsRBTN.Enabled = false;
+                    CmkRBTN.Enabled = false;
+                    DygRBTN.Enabled = false;
+                    DrsRBNT.Enabled = false;
+                    DyvRBTN.Enabled = false;
+                }
+            }
+            else if (!enable)
+            {
+                if (carPanelOpen)
+                {
+                    carRandomiseBTN.Visible = true;
+                    endCarRandomiseBTN.Visible = false;
+                    FrontDoorSensorRBTN.Enabled = true;
+                    RearDoorSensorRBTN.Enabled = true;
+                    HoodSensorRBTN.Enabled = true;
+                    TrunkSensorRBTN.Enabled = true;
+                    BatterySensorRBTN.Enabled = true;
+                    IgnitionRBTN.Enabled = true;
+                }
+                else if (ndvPanelOpen)
+                {
+                    ndvRandomiseBTN.Visible = true;
+                    endNdvRandomiseBTN.Visible = false;
+                    DipRBTN.Enabled = true;
+                    IkRBTN.Enabled = true;
+                    KtsRBTN.Enabled = true;
+                    CmkRBTN.Enabled = true;
+                    DygRBTN.Enabled = true;
+                    DrsRBNT.Enabled = true;
+                    DyvRBTN.Enabled = true;
+                }
+            }
+        }
+        private void RandomiseSelection() // Рандомизация
+        {
+            if (carPanelOpen)
+            {
+                int randomNumber = random.Next(1, 7);
+                switch (randomNumber)
+                {
+                    case 1:
+                        FrontDoorSensorRBTN_Click(FrontDoorSensorRBTN, null);
+                        break;
+                    case 2:
+                        RearDoorSensorRBTN_Click(RearDoorSensorRBTN, null);
+                        break;
+                    case 3:
+                        HoodSensorRBTN_Click(HoodSensorRBTN, null);
+                        break;
+                    case 4:
+                        TrunkSensorRBTN_Click(TrunkSensorRBTN, null);
+                        break;
+                    case 5:
+                        BatterySensorRBTN_Click(BatterySensorRBTN, null);
+                        break;
+                    case 6:
+                        IgnitionRBTN_Click(IgnitionRBTN, null);
+                        break;
+                }
+            }
+            else if (ndvPanelOpen)
+            {
+                int randomNumber = random.Next(1, 8);
+                switch (randomNumber)
+                {
+                    case 1:
+                        DipRBTN_Click(DipRBTN, null);
+                        break;
+                    case 2:
+                        IkRBTN_Click(IkRBTN, null);
+                        break;
+                    case 3:
+                        KtsRBTN_Click(KtsRBTN, null);
+                        break;
+                    case 4:
+                        CmkRBTN_Click(CmkRBTN, null);
+                        break;
+                    case 5:
+                        DygRBTN_Click(DygRBTN, null);
+                        break;
+                    case 6:
+                        DrsRBNT_Click(DrsRBNT, null);
+                        break;
+                    case 7:
+                        DyvRBTN_Click(DyvRBTN, null);
+                        break;
+                }
+            }
+        }
+
+        // Randomise Selection Ends Here
+
+        // DataBase Control Below
         private string LoadData(string sql) // Запрос данных
         {
             SqlConnection con = new SqlConnection("Data Source=DESKTOP-LIU1R6H; Initial Catalog = Security; " + "Integrated Security=True;");
@@ -254,7 +427,7 @@ namespace Diplom
 
             }
         }
-        private void ShowHidePanels(string NamePanel)
+        private void ShowHidePanels(string NamePanel) // Скрывает и показывает панели + сбрасывает значения по умолчанию
         {
             carPanelOpen = false; ndvPanelOpen = false; clientPanelOpen = false; gbrPanelOpen = false; contractPanelOpen = false; alarmPanelOpen = false;
             SensorTriggered = 0; // Сброс значения при переходе
@@ -262,6 +435,8 @@ namespace Diplom
             DisableIgnition = false; DisableSensors = false; EmergencyResponseTeam = false; DataFromDB = false; MchsSent = false;
             carID = string.Empty; carModel = string.Empty; carBrand = string.Empty; carNumbers = string.Empty;
             File.WriteAllText(@"log.txt", string.Empty);
+            // Выше сброс всех значений по умолчанию
+
             switch (NamePanel)
             {
                 case "Car":
@@ -425,62 +600,6 @@ namespace Diplom
             }
         }
 
-        private void timer1_Tick(object sender, EventArgs e) // Not WORKING // !!!!!!!!!!!!!!!!!!!!!!!!!
-        {
-            if ((SensorTriggered >= 3) && (!EmergencyResponseTeam))
-            {
-                if (carPanelOpen)
-                {
-                    CreateLog("MultipleSensors", $"[{carID}] {carBrand} {carModel} ({carNumbers})", SensorTriggered.ToString(), "");
-                    SentEmergencyBTN_Click(sender, e);
-                }
-                else if (ndvPanelOpen)
-                {
-                    CreateLog("NdvMultipleSensors", $"[{ndvID}] г.{ndvCity} улица {ndvStreet}", SensorTriggered.ToString(), "");
-                    EmergencyTeamSentNdvBTN_Click(sender, e);
-                }
-            }
-            if ((EmergencyResponseTeam) && (timerTo != 0))
-            {
-                timerTo -= 1; // Отсчёт прибытия ГБР
-                if (carPanelOpen)
-                {
-                    CurrTimeToGbrLABEL.Text = (timerTo / 60).ToString();
-                }
-                else if(ndvPanelOpen)
-                {
-                    NdvCurrTimeToGbrLABEL.Text = (timerTo / 60).ToString();
-                }
-            }
-            else if ((EmergencyResponseTeam) && (timerTo == 0))
-            {
-                if (carPanelOpen)
-                {
-                    CreateLog("GbrArrived", $"[{carID}] {carBrand} {carModel} ({carNumbers})", SensorTriggered.ToString(), UserInfoLABEL.Text);
-                    CurrStatusLABEL.Text = "ГБР прибыла на место происшествия";
-                }
-                else if (ndvPanelOpen)
-                {
-                    CreateLog("GbrArrived", $"[{ndvID}] г.{ndvCity} улица {ndvStreet}", SensorTriggered.ToString(), UserInfoLABEL.Text);
-                    NdvCurrStatusLABEL.Text = "ГБР прибыла на место происшествия";
-                }
-                EmergencyResponseTeam = false;
-                timerTo = 900; // Сброс значения
-            }
-            if ((MchsSent) && (timerToMchs != 0))
-            {
-                timerToMchs -= 1; // Отсчёт прибытия ГБР
-            }
-            else if ((MchsSent) && (timerToMchs == 0))
-            {
-                CreateLog("MchsArrived", $"[{ndvID}] г.{ndvCity} улица {ndvStreet}", SensorTriggered.ToString(), UserInfoLABEL.Text);
-                NdvCurrStatusLABEL.Text = "МЧС прибыл на охраняемый объект";
-                MchsSent = false;
-                timerToMchs = 900; // Сброс значения
-            }
-            CarLogTB.Text = File.ReadAllText(@"log.txt").ToString(); // Refreshes log.txt
-            NdvLogTB.Text = File.ReadAllText(@"log.txt").ToString(); // Refreshes log.txt
-        }
         // Car Sensors Action below
         private void HoodSensorRBTN_Click(object sender, EventArgs e)
         {
@@ -688,9 +807,37 @@ namespace Diplom
             DataGridViewFinder(ClientSearchTB.Text, clientDataGridView);
         }
 
+        private void endCarRandomiseBTN_Click(object sender, EventArgs e) // END carRandomiseBTN // Завершить тест (машины)
+        {
+            LockAllRadBTN(false); // Разблокирует кнопки
+            RandSelEnabled = false; // Сбрасывает значение рандомизации по умолчанию
+            timerToRand = 0; // Сбрасывает значение таймера рандомизации по умолчанию 
+        }
+
+        private void endNdvRandomiseBTN_Click(object sender, EventArgs e) // END carRandomiseBTN // Завершить тест (недвижка)
+        {
+            LockAllRadBTN(false);
+            RandSelEnabled = false;
+            timerToRand = 0;
+        }
+
         private void ndvSearchBTN_Click(object sender, EventArgs e)
         {
             DataGridViewFinder(ndvSearchTB.Text, dataGridView2);
+        }
+
+        private void startRandomSelectionBTN_Click(object sender, EventArgs e) // START ndvRandomiseBTN // Начать тест (недвижка)
+        {
+            LockAllRadBTN(true); // Блокирует кнопки
+            RandSelEnabled = true; // Начинает рандомизацию
+            timerToRand = 150; // Выставляет таймер рандомизации до 150 секунд 
+        }
+
+        private void materialButton1_Click(object sender, EventArgs e) // START carRandomiseBTN // Начать тест (машина)
+        {
+            LockAllRadBTN(true);
+            RandSelEnabled = true;
+            timerToRand = 150;
         }
 
         private void CarToTableBTN_Click(object sender, EventArgs e)

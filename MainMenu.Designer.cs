@@ -31,36 +31,36 @@ namespace Diplom
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle79 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle80 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle85 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle86 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle87 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle88 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle89 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle90 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TabMenuPANEL = new System.Windows.Forms.TableLayoutPanel();
             this.AlarmBTN = new MaterialSkin.Controls.MaterialButton();
             this.CarBTN = new MaterialSkin.Controls.MaterialButton();
@@ -75,6 +75,8 @@ namespace Diplom
             this.tableAdapterManager = new Diplom.SecurityTableAdapters.TableAdapterManager();
             this.UserInfoLABEL = new MaterialSkin.Controls.MaterialLabel();
             this.CarPANEL = new System.Windows.Forms.Panel();
+            this.endCarRandomiseBTN = new MaterialSkin.Controls.MaterialButton();
+            this.carRandomiseBTN = new MaterialSkin.Controls.MaterialButton();
             this.CarToTableBTN = new System.Windows.Forms.Button();
             this.OK = new MaterialSkin.Controls.MaterialButton();
             this.CarLicensePlateTB = new MaterialSkin.Controls.MaterialTextBox();
@@ -98,6 +100,8 @@ namespace Diplom
             this.CarPICTURE = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.NdvPANEL = new System.Windows.Forms.Panel();
+            this.endNdvRandomiseBTN = new MaterialSkin.Controls.MaterialButton();
+            this.ndvRandomiseBTN = new MaterialSkin.Controls.MaterialButton();
             this.NdvToDataBTN = new System.Windows.Forms.Button();
             this.CallMchsBTN = new MaterialSkin.Controls.MaterialButton();
             this.ndvOkBTN = new MaterialSkin.Controls.MaterialButton();
@@ -120,6 +124,9 @@ namespace Diplom
             this.CmkRBTN = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ClientPANEL = new System.Windows.Forms.Panel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.ClientSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
+            this.ClientSearch = new MaterialSkin.Controls.MaterialButton();
             this.ClientAddNewBTN = new MaterialSkin.Controls.MaterialButton();
             this.ClientDeleteBTN = new MaterialSkin.Controls.MaterialButton();
             this.ClientDBCC = new MaterialSkin.Controls.MaterialButton();
@@ -142,6 +149,9 @@ namespace Diplom
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientTableAdapter = new Diplom.SecurityTableAdapters.ClientTableAdapter();
             this.GbrPANEL = new System.Windows.Forms.Panel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.StaffSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
+            this.StaffSearchBTN = new MaterialSkin.Controls.MaterialButton();
             this.StaffAddNewBTN = new MaterialSkin.Controls.MaterialButton();
             this.StaffDeleteBTN = new MaterialSkin.Controls.MaterialButton();
             this.StaffDBCCBTN = new MaterialSkin.Controls.MaterialButton();
@@ -168,6 +178,9 @@ namespace Diplom
             this.rrtStaffTableAdapter = new Diplom.SecurityTableAdapters.RrtStaffTableAdapter();
             this.staffTableAdapter = new Diplom.SecurityTableAdapters.StaffTableAdapter();
             this.ContractPANEL = new System.Windows.Forms.Panel();
+            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.ContractSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
+            this.ContractSearchBTN = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.ContractAddNewBTN = new MaterialSkin.Controls.MaterialButton();
@@ -190,6 +203,9 @@ namespace Diplom
             this.cTermDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contractTableAdapter = new Diplom.SecurityTableAdapters.ContractTableAdapter();
             this.AlarmPANEL = new System.Windows.Forms.Panel();
+            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.TriggerSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
+            this.TriggerSearchBTN = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.AlarmAddNewBTN = new MaterialSkin.Controls.MaterialButton();
             this.AlarmDeleteBTN = new MaterialSkin.Controls.MaterialButton();
@@ -207,6 +223,9 @@ namespace Diplom
             this.tTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.triggeringTableAdapter = new Diplom.SecurityTableAdapters.TriggeringTableAdapter();
             this.NdvTablePANEL = new System.Windows.Forms.Panel();
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.ndvSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
+            this.ndvSearchBTN = new MaterialSkin.Controls.MaterialButton();
             this.NdvToTestBTN = new System.Windows.Forms.Button();
             this.NdvTableAddNewBTN = new MaterialSkin.Controls.MaterialButton();
             this.NdvTableDeleteBTN = new MaterialSkin.Controls.MaterialButton();
@@ -226,9 +245,12 @@ namespace Diplom
             this.objectAppartDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.objectTableTableAdapter = new Diplom.SecurityTableAdapters.ObjectTableTableAdapter();
             this.CarTablePANEL = new System.Windows.Forms.Panel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.CarSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
             this.CarToTestBTN = new System.Windows.Forms.Button();
             this.CarTableAddNewBTN = new MaterialSkin.Controls.MaterialButton();
             this.CarTableDeleteBTN = new MaterialSkin.Controls.MaterialButton();
+            this.CarSearchBTN = new MaterialSkin.Controls.MaterialButton();
             this.CarTableDBCCBTN = new MaterialSkin.Controls.MaterialButton();
             this.CarTableUpdateBTN = new MaterialSkin.Controls.MaterialButton();
             this.CarTableNumbersTB = new MaterialSkin.Controls.MaterialTextBox2();
@@ -242,24 +264,6 @@ namespace Diplom
             this.carModelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carNumbersDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carTableAdapter = new Diplom.SecurityTableAdapters.CarTableAdapter();
-            this.CarSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.CarSearchBTN = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
-            this.TriggerSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
-            this.TriggerSearchBTN = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
-            this.ContractSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
-            this.ContractSearchBTN = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.StaffSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
-            this.StaffSearchBTN = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
-            this.ClientSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
-            this.ClientSearch = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
-            this.ndvSearchTB = new MaterialSkin.Controls.MaterialTextBox2();
-            this.ndvSearchBTN = new MaterialSkin.Controls.MaterialButton();
             this.TabMenuPANEL.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.security)).BeginInit();
             this.CarPANEL.SuspendLayout();
@@ -532,6 +536,8 @@ namespace Diplom
             // 
             // CarPANEL
             // 
+            this.CarPANEL.Controls.Add(this.endCarRandomiseBTN);
+            this.CarPANEL.Controls.Add(this.carRandomiseBTN);
             this.CarPANEL.Controls.Add(this.CarToTableBTN);
             this.CarPANEL.Controls.Add(this.OK);
             this.CarPANEL.Controls.Add(this.CarLicensePlateTB);
@@ -558,6 +564,47 @@ namespace Diplom
             this.CarPANEL.Size = new System.Drawing.Size(1153, 594);
             this.CarPANEL.TabIndex = 7;
             // 
+            // endCarRandomiseBTN
+            // 
+            this.endCarRandomiseBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.endCarRandomiseBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.endCarRandomiseBTN.Depth = 0;
+            this.endCarRandomiseBTN.HighEmphasis = true;
+            this.endCarRandomiseBTN.Icon = null;
+            this.endCarRandomiseBTN.Location = new System.Drawing.Point(4, 538);
+            this.endCarRandomiseBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.endCarRandomiseBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.endCarRandomiseBTN.Name = "endCarRandomiseBTN";
+            this.endCarRandomiseBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.endCarRandomiseBTN.Size = new System.Drawing.Size(149, 36);
+            this.endCarRandomiseBTN.TabIndex = 19;
+            this.endCarRandomiseBTN.Text = "Завершить тест";
+            this.endCarRandomiseBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.endCarRandomiseBTN.UseAccentColor = false;
+            this.endCarRandomiseBTN.UseVisualStyleBackColor = true;
+            this.endCarRandomiseBTN.Visible = false;
+            this.endCarRandomiseBTN.Click += new System.EventHandler(this.endCarRandomiseBTN_Click);
+            // 
+            // carRandomiseBTN
+            // 
+            this.carRandomiseBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.carRandomiseBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.carRandomiseBTN.Depth = 0;
+            this.carRandomiseBTN.HighEmphasis = true;
+            this.carRandomiseBTN.Icon = null;
+            this.carRandomiseBTN.Location = new System.Drawing.Point(4, 538);
+            this.carRandomiseBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.carRandomiseBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.carRandomiseBTN.Name = "carRandomiseBTN";
+            this.carRandomiseBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.carRandomiseBTN.Size = new System.Drawing.Size(64, 36);
+            this.carRandomiseBTN.TabIndex = 19;
+            this.carRandomiseBTN.Text = "Тест";
+            this.carRandomiseBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.carRandomiseBTN.UseAccentColor = false;
+            this.carRandomiseBTN.UseVisualStyleBackColor = true;
+            this.carRandomiseBTN.Click += new System.EventHandler(this.materialButton1_Click);
+            // 
             // CarToTableBTN
             // 
             this.CarToTableBTN.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CarToTableBTN.BackgroundImage")));
@@ -576,7 +623,7 @@ namespace Diplom
             this.OK.Depth = 0;
             this.OK.HighEmphasis = true;
             this.OK.Icon = null;
-            this.OK.Location = new System.Drawing.Point(301, 538);
+            this.OK.Location = new System.Drawing.Point(311, 538);
             this.OK.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.OK.MouseState = MaterialSkin.MouseState.HOVER;
             this.OK.Name = "OK";
@@ -882,6 +929,8 @@ namespace Diplom
             // 
             // NdvPANEL
             // 
+            this.NdvPANEL.Controls.Add(this.endNdvRandomiseBTN);
+            this.NdvPANEL.Controls.Add(this.ndvRandomiseBTN);
             this.NdvPANEL.Controls.Add(this.NdvToDataBTN);
             this.NdvPANEL.Controls.Add(this.CallMchsBTN);
             this.NdvPANEL.Controls.Add(this.ndvOkBTN);
@@ -907,6 +956,47 @@ namespace Diplom
             this.NdvPANEL.Name = "NdvPANEL";
             this.NdvPANEL.Size = new System.Drawing.Size(1152, 594);
             this.NdvPANEL.TabIndex = 8;
+            // 
+            // endNdvRandomiseBTN
+            // 
+            this.endNdvRandomiseBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.endNdvRandomiseBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.endNdvRandomiseBTN.Depth = 0;
+            this.endNdvRandomiseBTN.HighEmphasis = true;
+            this.endNdvRandomiseBTN.Icon = null;
+            this.endNdvRandomiseBTN.Location = new System.Drawing.Point(16, 538);
+            this.endNdvRandomiseBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.endNdvRandomiseBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.endNdvRandomiseBTN.Name = "endNdvRandomiseBTN";
+            this.endNdvRandomiseBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.endNdvRandomiseBTN.Size = new System.Drawing.Size(149, 36);
+            this.endNdvRandomiseBTN.TabIndex = 20;
+            this.endNdvRandomiseBTN.Text = "Завершить тест";
+            this.endNdvRandomiseBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.endNdvRandomiseBTN.UseAccentColor = false;
+            this.endNdvRandomiseBTN.UseVisualStyleBackColor = true;
+            this.endNdvRandomiseBTN.Visible = false;
+            this.endNdvRandomiseBTN.Click += new System.EventHandler(this.endNdvRandomiseBTN_Click);
+            // 
+            // ndvRandomiseBTN
+            // 
+            this.ndvRandomiseBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ndvRandomiseBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.ndvRandomiseBTN.Depth = 0;
+            this.ndvRandomiseBTN.HighEmphasis = true;
+            this.ndvRandomiseBTN.Icon = null;
+            this.ndvRandomiseBTN.Location = new System.Drawing.Point(16, 538);
+            this.ndvRandomiseBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ndvRandomiseBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ndvRandomiseBTN.Name = "ndvRandomiseBTN";
+            this.ndvRandomiseBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.ndvRandomiseBTN.Size = new System.Drawing.Size(64, 36);
+            this.ndvRandomiseBTN.TabIndex = 18;
+            this.ndvRandomiseBTN.Text = "Тест";
+            this.ndvRandomiseBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.ndvRandomiseBTN.UseAccentColor = false;
+            this.ndvRandomiseBTN.UseVisualStyleBackColor = true;
+            this.ndvRandomiseBTN.Click += new System.EventHandler(this.startRandomSelectionBTN_Click);
             // 
             // NdvToDataBTN
             // 
@@ -1243,6 +1333,67 @@ namespace Diplom
             this.ClientPANEL.Size = new System.Drawing.Size(1152, 594);
             this.ClientPANEL.TabIndex = 9;
             // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel8.Location = new System.Drawing.Point(743, 405);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(143, 19);
+            this.materialLabel8.TabIndex = 31;
+            this.materialLabel8.Text = "Поисковая строка:";
+            // 
+            // ClientSearchTB
+            // 
+            this.ClientSearchTB.AnimateReadOnly = false;
+            this.ClientSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.ClientSearchTB.Depth = 0;
+            this.ClientSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ClientSearchTB.HideSelection = true;
+            this.ClientSearchTB.Hint = "Введите запрашиваемое значение";
+            this.ClientSearchTB.LeadingIcon = null;
+            this.ClientSearchTB.Location = new System.Drawing.Point(743, 427);
+            this.ClientSearchTB.MaxLength = 32767;
+            this.ClientSearchTB.MouseState = MaterialSkin.MouseState.OUT;
+            this.ClientSearchTB.Name = "ClientSearchTB";
+            this.ClientSearchTB.PasswordChar = '\0';
+            this.ClientSearchTB.PrefixSuffixText = null;
+            this.ClientSearchTB.ReadOnly = false;
+            this.ClientSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ClientSearchTB.SelectedText = "";
+            this.ClientSearchTB.SelectionLength = 0;
+            this.ClientSearchTB.SelectionStart = 0;
+            this.ClientSearchTB.ShortcutsEnabled = true;
+            this.ClientSearchTB.Size = new System.Drawing.Size(293, 48);
+            this.ClientSearchTB.TabIndex = 30;
+            this.ClientSearchTB.TabStop = false;
+            this.ClientSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ClientSearchTB.TrailingIcon = null;
+            this.ClientSearchTB.UseSystemPasswordChar = false;
+            // 
+            // ClientSearch
+            // 
+            this.ClientSearch.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSearch.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.ClientSearch.Depth = 0;
+            this.ClientSearch.HighEmphasis = true;
+            this.ClientSearch.Icon = null;
+            this.ClientSearch.Location = new System.Drawing.Point(1057, 432);
+            this.ClientSearch.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ClientSearch.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ClientSearch.Name = "ClientSearch";
+            this.ClientSearch.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.ClientSearch.Size = new System.Drawing.Size(72, 36);
+            this.ClientSearch.TabIndex = 29;
+            this.ClientSearch.Text = "Поиск";
+            this.ClientSearch.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.ClientSearch.UseAccentColor = false;
+            this.ClientSearch.UseVisualStyleBackColor = true;
+            this.ClientSearch.Click += new System.EventHandler(this.ClientSearch_Click);
+            // 
             // ClientAddNewBTN
             // 
             this.ClientAddNewBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -1518,12 +1669,12 @@ namespace Diplom
             // 
             // clientDataGridView
             // 
-            dataGridViewCellStyle61.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle61.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle61.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle61;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.clientDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.clientDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.clientDataGridView.AutoGenerateColumns = false;
@@ -1532,14 +1683,14 @@ namespace Diplom
             this.clientDataGridView.BackgroundColor = System.Drawing.Color.White;
             this.clientDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.clientDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle62.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle62.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle62.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.clientDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle62;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.clientDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.clientDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.clientDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -1550,35 +1701,35 @@ namespace Diplom
             this.dataGridViewTextBoxColumn6,
             this.dataGridViewTextBoxColumn7});
             this.clientDataGridView.DataSource = this.clientBindingSource;
-            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle63.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle63.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle63.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.clientDataGridView.DefaultCellStyle = dataGridViewCellStyle63;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.clientDataGridView.DefaultCellStyle = dataGridViewCellStyle3;
             this.clientDataGridView.EnableHeadersVisualStyles = false;
             this.clientDataGridView.Location = new System.Drawing.Point(4, 0);
             this.clientDataGridView.Name = "clientDataGridView";
             this.clientDataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle64.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle64.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle64.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle64.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.clientDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle64;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.clientDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.clientDataGridView.RowHeadersVisible = false;
-            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle65.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle65.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle65.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle65.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle65.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle65.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.clientDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle65;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.clientDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.clientDataGridView.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.DodgerBlue;
             this.clientDataGridView.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.clientDataGridView.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
@@ -1662,6 +1813,67 @@ namespace Diplom
             this.GbrPANEL.Name = "GbrPANEL";
             this.GbrPANEL.Size = new System.Drawing.Size(1152, 594);
             this.GbrPANEL.TabIndex = 10;
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel7.Location = new System.Drawing.Point(729, 404);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(143, 19);
+            this.materialLabel7.TabIndex = 28;
+            this.materialLabel7.Text = "Поисковая строка:";
+            // 
+            // StaffSearchTB
+            // 
+            this.StaffSearchTB.AnimateReadOnly = false;
+            this.StaffSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.StaffSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.StaffSearchTB.Depth = 0;
+            this.StaffSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.StaffSearchTB.HideSelection = true;
+            this.StaffSearchTB.Hint = "Введите запрашиваемое значение";
+            this.StaffSearchTB.LeadingIcon = null;
+            this.StaffSearchTB.Location = new System.Drawing.Point(729, 426);
+            this.StaffSearchTB.MaxLength = 32767;
+            this.StaffSearchTB.MouseState = MaterialSkin.MouseState.OUT;
+            this.StaffSearchTB.Name = "StaffSearchTB";
+            this.StaffSearchTB.PasswordChar = '\0';
+            this.StaffSearchTB.PrefixSuffixText = null;
+            this.StaffSearchTB.ReadOnly = false;
+            this.StaffSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.StaffSearchTB.SelectedText = "";
+            this.StaffSearchTB.SelectionLength = 0;
+            this.StaffSearchTB.SelectionStart = 0;
+            this.StaffSearchTB.ShortcutsEnabled = true;
+            this.StaffSearchTB.Size = new System.Drawing.Size(293, 48);
+            this.StaffSearchTB.TabIndex = 27;
+            this.StaffSearchTB.TabStop = false;
+            this.StaffSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.StaffSearchTB.TrailingIcon = null;
+            this.StaffSearchTB.UseSystemPasswordChar = false;
+            // 
+            // StaffSearchBTN
+            // 
+            this.StaffSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.StaffSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.StaffSearchBTN.Depth = 0;
+            this.StaffSearchBTN.HighEmphasis = true;
+            this.StaffSearchBTN.Icon = null;
+            this.StaffSearchBTN.Location = new System.Drawing.Point(1043, 431);
+            this.StaffSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.StaffSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.StaffSearchBTN.Name = "StaffSearchBTN";
+            this.StaffSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.StaffSearchBTN.Size = new System.Drawing.Size(72, 36);
+            this.StaffSearchBTN.TabIndex = 26;
+            this.StaffSearchBTN.Text = "Поиск";
+            this.StaffSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.StaffSearchBTN.UseAccentColor = false;
+            this.StaffSearchBTN.UseVisualStyleBackColor = true;
+            this.StaffSearchBTN.Click += new System.EventHandler(this.StaffSearchBTN_Click);
             // 
             // StaffAddNewBTN
             // 
@@ -1939,12 +2151,12 @@ namespace Diplom
             // 
             // staffGridView
             // 
-            dataGridViewCellStyle66.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle66.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle66.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle66.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle66.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.staffGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle66;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.staffGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
             this.staffGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.staffGridView.AutoGenerateColumns = false;
@@ -1953,14 +2165,14 @@ namespace Diplom
             this.staffGridView.BackgroundColor = System.Drawing.Color.White;
             this.staffGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.staffGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle67.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle67.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle67.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle67.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle67.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle67.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.staffGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle67;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.staffGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.staffGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.staffGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.stIDDataGridViewTextBoxColumn,
@@ -1971,35 +2183,35 @@ namespace Diplom
             this.stBirthDateDataGridViewTextBoxColumn,
             this.stPasportDataGridViewTextBoxColumn});
             this.staffGridView.DataSource = this.staffBindingSource;
-            dataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle68.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle68.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle68.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle68.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle68.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle68.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.staffGridView.DefaultCellStyle = dataGridViewCellStyle68;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.staffGridView.DefaultCellStyle = dataGridViewCellStyle8;
             this.staffGridView.EnableHeadersVisualStyles = false;
             this.staffGridView.Location = new System.Drawing.Point(4, 0);
             this.staffGridView.Name = "staffGridView";
             this.staffGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle69.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle69.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle69.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle69.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle69.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle69.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle69.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.staffGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle69;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.staffGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.staffGridView.RowHeadersVisible = false;
-            dataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle70.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle70.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle70.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle70.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle70.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle70.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.staffGridView.RowsDefaultCellStyle = dataGridViewCellStyle70;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.staffGridView.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.staffGridView.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.DodgerBlue;
             this.staffGridView.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.staffGridView.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
@@ -2095,6 +2307,67 @@ namespace Diplom
             this.ContractPANEL.Name = "ContractPANEL";
             this.ContractPANEL.Size = new System.Drawing.Size(1153, 594);
             this.ContractPANEL.TabIndex = 11;
+            // 
+            // materialLabel6
+            // 
+            this.materialLabel6.AutoSize = true;
+            this.materialLabel6.Depth = 0;
+            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel6.Location = new System.Drawing.Point(596, 404);
+            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel6.Name = "materialLabel6";
+            this.materialLabel6.Size = new System.Drawing.Size(143, 19);
+            this.materialLabel6.TabIndex = 25;
+            this.materialLabel6.Text = "Поисковая строка:";
+            // 
+            // ContractSearchTB
+            // 
+            this.ContractSearchTB.AnimateReadOnly = false;
+            this.ContractSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ContractSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.ContractSearchTB.Depth = 0;
+            this.ContractSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ContractSearchTB.HideSelection = true;
+            this.ContractSearchTB.Hint = "Введите запрашиваемое значение";
+            this.ContractSearchTB.LeadingIcon = null;
+            this.ContractSearchTB.Location = new System.Drawing.Point(596, 426);
+            this.ContractSearchTB.MaxLength = 32767;
+            this.ContractSearchTB.MouseState = MaterialSkin.MouseState.OUT;
+            this.ContractSearchTB.Name = "ContractSearchTB";
+            this.ContractSearchTB.PasswordChar = '\0';
+            this.ContractSearchTB.PrefixSuffixText = null;
+            this.ContractSearchTB.ReadOnly = false;
+            this.ContractSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ContractSearchTB.SelectedText = "";
+            this.ContractSearchTB.SelectionLength = 0;
+            this.ContractSearchTB.SelectionStart = 0;
+            this.ContractSearchTB.ShortcutsEnabled = true;
+            this.ContractSearchTB.Size = new System.Drawing.Size(293, 48);
+            this.ContractSearchTB.TabIndex = 24;
+            this.ContractSearchTB.TabStop = false;
+            this.ContractSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ContractSearchTB.TrailingIcon = null;
+            this.ContractSearchTB.UseSystemPasswordChar = false;
+            // 
+            // ContractSearchBTN
+            // 
+            this.ContractSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ContractSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.ContractSearchBTN.Depth = 0;
+            this.ContractSearchBTN.HighEmphasis = true;
+            this.ContractSearchBTN.Icon = null;
+            this.ContractSearchBTN.Location = new System.Drawing.Point(910, 431);
+            this.ContractSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ContractSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ContractSearchBTN.Name = "ContractSearchBTN";
+            this.ContractSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.ContractSearchBTN.Size = new System.Drawing.Size(72, 36);
+            this.ContractSearchBTN.TabIndex = 23;
+            this.ContractSearchBTN.Text = "Поиск";
+            this.ContractSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.ContractSearchBTN.UseAccentColor = false;
+            this.ContractSearchBTN.UseVisualStyleBackColor = true;
+            this.ContractSearchBTN.Click += new System.EventHandler(this.ContractSearchBTN_Click);
             // 
             // materialLabel2
             // 
@@ -2346,12 +2619,12 @@ namespace Diplom
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle71.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle71.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle71.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle71.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle71.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle71;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoGenerateColumns = false;
@@ -2360,14 +2633,14 @@ namespace Diplom
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle72.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle72.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle72.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle72.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle72;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cIDDataGridViewTextBoxColumn,
@@ -2377,35 +2650,35 @@ namespace Diplom
             this.cDateDataGridViewTextBoxColumn,
             this.cTermDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.contractBindingSource;
-            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle73.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle73.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle73.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle73.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle73.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle73.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle73;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle13;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(4, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle74.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle74.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle74.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle74;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dataGridView1.RowHeadersVisible = false;
-            dataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle75.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle75.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle75.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle75.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle75.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle75.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle75;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.dataGridView1.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.DodgerBlue;
             this.dataGridView1.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataGridView1.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
@@ -2474,6 +2747,67 @@ namespace Diplom
             this.AlarmPANEL.Name = "AlarmPANEL";
             this.AlarmPANEL.Size = new System.Drawing.Size(1153, 594);
             this.AlarmPANEL.TabIndex = 12;
+            // 
+            // materialLabel5
+            // 
+            this.materialLabel5.AutoSize = true;
+            this.materialLabel5.Depth = 0;
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel5.Location = new System.Drawing.Point(503, 404);
+            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel5.Name = "materialLabel5";
+            this.materialLabel5.Size = new System.Drawing.Size(143, 19);
+            this.materialLabel5.TabIndex = 22;
+            this.materialLabel5.Text = "Поисковая строка:";
+            // 
+            // TriggerSearchTB
+            // 
+            this.TriggerSearchTB.AnimateReadOnly = false;
+            this.TriggerSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.TriggerSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.TriggerSearchTB.Depth = 0;
+            this.TriggerSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.TriggerSearchTB.HideSelection = true;
+            this.TriggerSearchTB.Hint = "Введите запрашиваемое значение";
+            this.TriggerSearchTB.LeadingIcon = null;
+            this.TriggerSearchTB.Location = new System.Drawing.Point(503, 426);
+            this.TriggerSearchTB.MaxLength = 32767;
+            this.TriggerSearchTB.MouseState = MaterialSkin.MouseState.OUT;
+            this.TriggerSearchTB.Name = "TriggerSearchTB";
+            this.TriggerSearchTB.PasswordChar = '\0';
+            this.TriggerSearchTB.PrefixSuffixText = null;
+            this.TriggerSearchTB.ReadOnly = false;
+            this.TriggerSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.TriggerSearchTB.SelectedText = "";
+            this.TriggerSearchTB.SelectionLength = 0;
+            this.TriggerSearchTB.SelectionStart = 0;
+            this.TriggerSearchTB.ShortcutsEnabled = true;
+            this.TriggerSearchTB.Size = new System.Drawing.Size(293, 48);
+            this.TriggerSearchTB.TabIndex = 21;
+            this.TriggerSearchTB.TabStop = false;
+            this.TriggerSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.TriggerSearchTB.TrailingIcon = null;
+            this.TriggerSearchTB.UseSystemPasswordChar = false;
+            // 
+            // TriggerSearchBTN
+            // 
+            this.TriggerSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.TriggerSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.TriggerSearchBTN.Depth = 0;
+            this.TriggerSearchBTN.HighEmphasis = true;
+            this.TriggerSearchBTN.Icon = null;
+            this.TriggerSearchBTN.Location = new System.Drawing.Point(817, 431);
+            this.TriggerSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.TriggerSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.TriggerSearchBTN.Name = "TriggerSearchBTN";
+            this.TriggerSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.TriggerSearchBTN.Size = new System.Drawing.Size(72, 36);
+            this.TriggerSearchBTN.TabIndex = 20;
+            this.TriggerSearchBTN.Text = "Поиск";
+            this.TriggerSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.TriggerSearchBTN.UseAccentColor = false;
+            this.TriggerSearchBTN.UseVisualStyleBackColor = true;
+            this.TriggerSearchBTN.Click += new System.EventHandler(this.TriggerSearchBTN_Click);
             // 
             // materialLabel4
             // 
@@ -2674,12 +3008,12 @@ namespace Diplom
             // 
             // AlarmGridView
             // 
-            dataGridViewCellStyle76.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle76.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle76.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle76.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle76.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.AlarmGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle76;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.AlarmGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
             this.AlarmGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AlarmGridView.AutoGenerateColumns = false;
@@ -2688,14 +3022,14 @@ namespace Diplom
             this.AlarmGridView.BackgroundColor = System.Drawing.Color.White;
             this.AlarmGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AlarmGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle77.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle77.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle77.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle77.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle77.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle77.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AlarmGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle77;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AlarmGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.AlarmGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.AlarmGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.tIDDataGridViewTextBoxColumn,
@@ -2703,35 +3037,35 @@ namespace Diplom
             this.tDateDataGridViewTextBoxColumn,
             this.tTypeDataGridViewTextBoxColumn});
             this.AlarmGridView.DataSource = this.triggeringBindingSource;
-            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle78.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle78.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle78.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle78.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle78.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle78.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.AlarmGridView.DefaultCellStyle = dataGridViewCellStyle78;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.AlarmGridView.DefaultCellStyle = dataGridViewCellStyle18;
             this.AlarmGridView.EnableHeadersVisualStyles = false;
             this.AlarmGridView.Location = new System.Drawing.Point(4, 0);
             this.AlarmGridView.Name = "AlarmGridView";
             this.AlarmGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle79.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle79.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle79.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle79.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle79.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle79.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AlarmGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle79;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AlarmGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.AlarmGridView.RowHeadersVisible = false;
-            dataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle80.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle80.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle80.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle80.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle80.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle80.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AlarmGridView.RowsDefaultCellStyle = dataGridViewCellStyle80;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AlarmGridView.RowsDefaultCellStyle = dataGridViewCellStyle20;
             this.AlarmGridView.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.DodgerBlue;
             this.AlarmGridView.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AlarmGridView.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
@@ -2789,6 +3123,67 @@ namespace Diplom
             this.NdvTablePANEL.Name = "NdvTablePANEL";
             this.NdvTablePANEL.Size = new System.Drawing.Size(1153, 594);
             this.NdvTablePANEL.TabIndex = 13;
+            // 
+            // materialLabel9
+            // 
+            this.materialLabel9.AutoSize = true;
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel9.Location = new System.Drawing.Point(615, 404);
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            this.materialLabel9.Size = new System.Drawing.Size(143, 19);
+            this.materialLabel9.TabIndex = 34;
+            this.materialLabel9.Text = "Поисковая строка:";
+            // 
+            // ndvSearchTB
+            // 
+            this.ndvSearchTB.AnimateReadOnly = false;
+            this.ndvSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ndvSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.ndvSearchTB.Depth = 0;
+            this.ndvSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.ndvSearchTB.HideSelection = true;
+            this.ndvSearchTB.Hint = "Введите запрашиваемое значение";
+            this.ndvSearchTB.LeadingIcon = null;
+            this.ndvSearchTB.Location = new System.Drawing.Point(615, 426);
+            this.ndvSearchTB.MaxLength = 32767;
+            this.ndvSearchTB.MouseState = MaterialSkin.MouseState.OUT;
+            this.ndvSearchTB.Name = "ndvSearchTB";
+            this.ndvSearchTB.PasswordChar = '\0';
+            this.ndvSearchTB.PrefixSuffixText = null;
+            this.ndvSearchTB.ReadOnly = false;
+            this.ndvSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ndvSearchTB.SelectedText = "";
+            this.ndvSearchTB.SelectionLength = 0;
+            this.ndvSearchTB.SelectionStart = 0;
+            this.ndvSearchTB.ShortcutsEnabled = true;
+            this.ndvSearchTB.Size = new System.Drawing.Size(293, 48);
+            this.ndvSearchTB.TabIndex = 33;
+            this.ndvSearchTB.TabStop = false;
+            this.ndvSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ndvSearchTB.TrailingIcon = null;
+            this.ndvSearchTB.UseSystemPasswordChar = false;
+            // 
+            // ndvSearchBTN
+            // 
+            this.ndvSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ndvSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.ndvSearchBTN.Depth = 0;
+            this.ndvSearchBTN.HighEmphasis = true;
+            this.ndvSearchBTN.Icon = null;
+            this.ndvSearchBTN.Location = new System.Drawing.Point(929, 431);
+            this.ndvSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ndvSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ndvSearchBTN.Name = "ndvSearchBTN";
+            this.ndvSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.ndvSearchBTN.Size = new System.Drawing.Size(72, 36);
+            this.ndvSearchBTN.TabIndex = 32;
+            this.ndvSearchBTN.Text = "Поиск";
+            this.ndvSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.ndvSearchBTN.UseAccentColor = false;
+            this.ndvSearchBTN.UseVisualStyleBackColor = true;
+            this.ndvSearchBTN.Click += new System.EventHandler(this.ndvSearchBTN_Click);
             // 
             // NdvToTestBTN
             // 
@@ -3040,12 +3435,12 @@ namespace Diplom
             // 
             // dataGridView2
             // 
-            dataGridViewCellStyle81.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle81.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle81.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle81.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle81.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle81;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView2.AutoGenerateColumns = false;
@@ -3054,14 +3449,14 @@ namespace Diplom
             this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle82.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle82.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle82.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle82.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle82.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle82.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle82;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.objectIDDataGridViewTextBoxColumn1,
@@ -3070,35 +3465,35 @@ namespace Diplom
             this.objectHouseDataGridViewTextBoxColumn,
             this.objectAppartDataGridViewTextBoxColumn});
             this.dataGridView2.DataSource = this.objectTableBindingSource;
-            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle83.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle83.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle83.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle83.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle83.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle83.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle83;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle23;
             this.dataGridView2.EnableHeadersVisualStyles = false;
             this.dataGridView2.Location = new System.Drawing.Point(0, 0);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle84.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle84.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle84.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle84.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle84.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle84.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle84;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
             this.dataGridView2.RowHeadersVisible = false;
-            dataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle85.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle85.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle85.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle85.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle85.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle85.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle85;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle25;
             this.dataGridView2.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.DodgerBlue;
             this.dataGridView2.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataGridView2.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
@@ -3162,6 +3557,47 @@ namespace Diplom
             this.CarTablePANEL.Size = new System.Drawing.Size(1153, 594);
             this.CarTablePANEL.TabIndex = 14;
             // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel3.Location = new System.Drawing.Point(464, 404);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(143, 19);
+            this.materialLabel3.TabIndex = 19;
+            this.materialLabel3.Text = "Поисковая строка:";
+            // 
+            // CarSearchTB
+            // 
+            this.CarSearchTB.AnimateReadOnly = false;
+            this.CarSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.CarSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.CarSearchTB.Depth = 0;
+            this.CarSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.CarSearchTB.HideSelection = true;
+            this.CarSearchTB.Hint = "Введите запрашиваемое значение";
+            this.CarSearchTB.LeadingIcon = null;
+            this.CarSearchTB.Location = new System.Drawing.Point(464, 426);
+            this.CarSearchTB.MaxLength = 32767;
+            this.CarSearchTB.MouseState = MaterialSkin.MouseState.OUT;
+            this.CarSearchTB.Name = "CarSearchTB";
+            this.CarSearchTB.PasswordChar = '\0';
+            this.CarSearchTB.PrefixSuffixText = null;
+            this.CarSearchTB.ReadOnly = false;
+            this.CarSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.CarSearchTB.SelectedText = "";
+            this.CarSearchTB.SelectionLength = 0;
+            this.CarSearchTB.SelectionStart = 0;
+            this.CarSearchTB.ShortcutsEnabled = true;
+            this.CarSearchTB.Size = new System.Drawing.Size(293, 48);
+            this.CarSearchTB.TabIndex = 18;
+            this.CarSearchTB.TabStop = false;
+            this.CarSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.CarSearchTB.TrailingIcon = null;
+            this.CarSearchTB.UseSystemPasswordChar = false;
+            // 
             // CarToTestBTN
             // 
             this.CarToTestBTN.BackColor = System.Drawing.Color.White;
@@ -3213,6 +3649,26 @@ namespace Diplom
             this.CarTableDeleteBTN.UseAccentColor = false;
             this.CarTableDeleteBTN.UseVisualStyleBackColor = true;
             this.CarTableDeleteBTN.Click += new System.EventHandler(this.CarTableDeleteBTN_Click);
+            // 
+            // CarSearchBTN
+            // 
+            this.CarSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.CarSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.CarSearchBTN.Depth = 0;
+            this.CarSearchBTN.HighEmphasis = true;
+            this.CarSearchBTN.Icon = null;
+            this.CarSearchBTN.Location = new System.Drawing.Point(778, 431);
+            this.CarSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.CarSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
+            this.CarSearchBTN.Name = "CarSearchBTN";
+            this.CarSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.CarSearchBTN.Size = new System.Drawing.Size(72, 36);
+            this.CarSearchBTN.TabIndex = 0;
+            this.CarSearchBTN.Text = "Поиск";
+            this.CarSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.CarSearchBTN.UseAccentColor = false;
+            this.CarSearchBTN.UseVisualStyleBackColor = true;
+            this.CarSearchBTN.Click += new System.EventHandler(this.CarSearchBTN_Click);
             // 
             // CarTableDBCCBTN
             // 
@@ -3382,12 +3838,12 @@ namespace Diplom
             // 
             // dataGridView3
             // 
-            dataGridViewCellStyle86.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle86.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle86.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle86.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle86.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle86;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle26;
             this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView3.AutoGenerateColumns = false;
@@ -3396,14 +3852,14 @@ namespace Diplom
             this.dataGridView3.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle87.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle87.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle87.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle87.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle87.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle87.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle87.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle87;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.carIDDataGridViewTextBoxColumn1,
@@ -3411,35 +3867,35 @@ namespace Diplom
             this.carModelDataGridViewTextBoxColumn,
             this.carNumbersDataGridViewTextBoxColumn});
             this.dataGridView3.DataSource = this.carBindingSource;
-            dataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle88.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle88.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle88.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle88.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle88.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle88.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle88;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle28;
             this.dataGridView3.EnableHeadersVisualStyles = false;
             this.dataGridView3.Location = new System.Drawing.Point(0, 0);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle89.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle89.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle89.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle89.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle89.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle89.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle89.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle89;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.dataGridView3.RowHeadersVisible = false;
-            dataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle90.BackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle90.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle90.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle90.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle90.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle90;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle30;
             this.dataGridView3.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.DodgerBlue;
             this.dataGridView3.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataGridView3.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
@@ -3476,372 +3932,6 @@ namespace Diplom
             // carTableAdapter
             // 
             this.carTableAdapter.ClearBeforeFill = true;
-            // 
-            // CarSearchTB
-            // 
-            this.CarSearchTB.AnimateReadOnly = false;
-            this.CarSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.CarSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.CarSearchTB.Depth = 0;
-            this.CarSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.CarSearchTB.HideSelection = true;
-            this.CarSearchTB.Hint = "Введите запрашиваемое значение";
-            this.CarSearchTB.LeadingIcon = null;
-            this.CarSearchTB.Location = new System.Drawing.Point(464, 426);
-            this.CarSearchTB.MaxLength = 32767;
-            this.CarSearchTB.MouseState = MaterialSkin.MouseState.OUT;
-            this.CarSearchTB.Name = "CarSearchTB";
-            this.CarSearchTB.PasswordChar = '\0';
-            this.CarSearchTB.PrefixSuffixText = null;
-            this.CarSearchTB.ReadOnly = false;
-            this.CarSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.CarSearchTB.SelectedText = "";
-            this.CarSearchTB.SelectionLength = 0;
-            this.CarSearchTB.SelectionStart = 0;
-            this.CarSearchTB.ShortcutsEnabled = true;
-            this.CarSearchTB.Size = new System.Drawing.Size(293, 48);
-            this.CarSearchTB.TabIndex = 18;
-            this.CarSearchTB.TabStop = false;
-            this.CarSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.CarSearchTB.TrailingIcon = null;
-            this.CarSearchTB.UseSystemPasswordChar = false;
-            // 
-            // materialLabel3
-            // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.Location = new System.Drawing.Point(464, 404);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(143, 19);
-            this.materialLabel3.TabIndex = 19;
-            this.materialLabel3.Text = "Поисковая строка:";
-            // 
-            // CarSearchBTN
-            // 
-            this.CarSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.CarSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.CarSearchBTN.Depth = 0;
-            this.CarSearchBTN.HighEmphasis = true;
-            this.CarSearchBTN.Icon = null;
-            this.CarSearchBTN.Location = new System.Drawing.Point(778, 431);
-            this.CarSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.CarSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
-            this.CarSearchBTN.Name = "CarSearchBTN";
-            this.CarSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.CarSearchBTN.Size = new System.Drawing.Size(72, 36);
-            this.CarSearchBTN.TabIndex = 0;
-            this.CarSearchBTN.Text = "Поиск";
-            this.CarSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.CarSearchBTN.UseAccentColor = false;
-            this.CarSearchBTN.UseVisualStyleBackColor = true;
-            this.CarSearchBTN.Click += new System.EventHandler(this.CarSearchBTN_Click);
-            // 
-            // materialLabel5
-            // 
-            this.materialLabel5.AutoSize = true;
-            this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel5.Location = new System.Drawing.Point(503, 404);
-            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(143, 19);
-            this.materialLabel5.TabIndex = 22;
-            this.materialLabel5.Text = "Поисковая строка:";
-            // 
-            // TriggerSearchTB
-            // 
-            this.TriggerSearchTB.AnimateReadOnly = false;
-            this.TriggerSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.TriggerSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.TriggerSearchTB.Depth = 0;
-            this.TriggerSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.TriggerSearchTB.HideSelection = true;
-            this.TriggerSearchTB.Hint = "Введите запрашиваемое значение";
-            this.TriggerSearchTB.LeadingIcon = null;
-            this.TriggerSearchTB.Location = new System.Drawing.Point(503, 426);
-            this.TriggerSearchTB.MaxLength = 32767;
-            this.TriggerSearchTB.MouseState = MaterialSkin.MouseState.OUT;
-            this.TriggerSearchTB.Name = "TriggerSearchTB";
-            this.TriggerSearchTB.PasswordChar = '\0';
-            this.TriggerSearchTB.PrefixSuffixText = null;
-            this.TriggerSearchTB.ReadOnly = false;
-            this.TriggerSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.TriggerSearchTB.SelectedText = "";
-            this.TriggerSearchTB.SelectionLength = 0;
-            this.TriggerSearchTB.SelectionStart = 0;
-            this.TriggerSearchTB.ShortcutsEnabled = true;
-            this.TriggerSearchTB.Size = new System.Drawing.Size(293, 48);
-            this.TriggerSearchTB.TabIndex = 21;
-            this.TriggerSearchTB.TabStop = false;
-            this.TriggerSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.TriggerSearchTB.TrailingIcon = null;
-            this.TriggerSearchTB.UseSystemPasswordChar = false;
-            // 
-            // TriggerSearchBTN
-            // 
-            this.TriggerSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.TriggerSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.TriggerSearchBTN.Depth = 0;
-            this.TriggerSearchBTN.HighEmphasis = true;
-            this.TriggerSearchBTN.Icon = null;
-            this.TriggerSearchBTN.Location = new System.Drawing.Point(817, 431);
-            this.TriggerSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.TriggerSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
-            this.TriggerSearchBTN.Name = "TriggerSearchBTN";
-            this.TriggerSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.TriggerSearchBTN.Size = new System.Drawing.Size(72, 36);
-            this.TriggerSearchBTN.TabIndex = 20;
-            this.TriggerSearchBTN.Text = "Поиск";
-            this.TriggerSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.TriggerSearchBTN.UseAccentColor = false;
-            this.TriggerSearchBTN.UseVisualStyleBackColor = true;
-            this.TriggerSearchBTN.Click += new System.EventHandler(this.TriggerSearchBTN_Click);
-            // 
-            // materialLabel6
-            // 
-            this.materialLabel6.AutoSize = true;
-            this.materialLabel6.Depth = 0;
-            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel6.Location = new System.Drawing.Point(596, 404);
-            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(143, 19);
-            this.materialLabel6.TabIndex = 25;
-            this.materialLabel6.Text = "Поисковая строка:";
-            // 
-            // ContractSearchTB
-            // 
-            this.ContractSearchTB.AnimateReadOnly = false;
-            this.ContractSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ContractSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.ContractSearchTB.Depth = 0;
-            this.ContractSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.ContractSearchTB.HideSelection = true;
-            this.ContractSearchTB.Hint = "Введите запрашиваемое значение";
-            this.ContractSearchTB.LeadingIcon = null;
-            this.ContractSearchTB.Location = new System.Drawing.Point(596, 426);
-            this.ContractSearchTB.MaxLength = 32767;
-            this.ContractSearchTB.MouseState = MaterialSkin.MouseState.OUT;
-            this.ContractSearchTB.Name = "ContractSearchTB";
-            this.ContractSearchTB.PasswordChar = '\0';
-            this.ContractSearchTB.PrefixSuffixText = null;
-            this.ContractSearchTB.ReadOnly = false;
-            this.ContractSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ContractSearchTB.SelectedText = "";
-            this.ContractSearchTB.SelectionLength = 0;
-            this.ContractSearchTB.SelectionStart = 0;
-            this.ContractSearchTB.ShortcutsEnabled = true;
-            this.ContractSearchTB.Size = new System.Drawing.Size(293, 48);
-            this.ContractSearchTB.TabIndex = 24;
-            this.ContractSearchTB.TabStop = false;
-            this.ContractSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.ContractSearchTB.TrailingIcon = null;
-            this.ContractSearchTB.UseSystemPasswordChar = false;
-            // 
-            // ContractSearchBTN
-            // 
-            this.ContractSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ContractSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.ContractSearchBTN.Depth = 0;
-            this.ContractSearchBTN.HighEmphasis = true;
-            this.ContractSearchBTN.Icon = null;
-            this.ContractSearchBTN.Location = new System.Drawing.Point(910, 431);
-            this.ContractSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.ContractSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
-            this.ContractSearchBTN.Name = "ContractSearchBTN";
-            this.ContractSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.ContractSearchBTN.Size = new System.Drawing.Size(72, 36);
-            this.ContractSearchBTN.TabIndex = 23;
-            this.ContractSearchBTN.Text = "Поиск";
-            this.ContractSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.ContractSearchBTN.UseAccentColor = false;
-            this.ContractSearchBTN.UseVisualStyleBackColor = true;
-            this.ContractSearchBTN.Click += new System.EventHandler(this.ContractSearchBTN_Click);
-            // 
-            // materialLabel7
-            // 
-            this.materialLabel7.AutoSize = true;
-            this.materialLabel7.Depth = 0;
-            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel7.Location = new System.Drawing.Point(729, 404);
-            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(143, 19);
-            this.materialLabel7.TabIndex = 28;
-            this.materialLabel7.Text = "Поисковая строка:";
-            // 
-            // StaffSearchTB
-            // 
-            this.StaffSearchTB.AnimateReadOnly = false;
-            this.StaffSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.StaffSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.StaffSearchTB.Depth = 0;
-            this.StaffSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.StaffSearchTB.HideSelection = true;
-            this.StaffSearchTB.Hint = "Введите запрашиваемое значение";
-            this.StaffSearchTB.LeadingIcon = null;
-            this.StaffSearchTB.Location = new System.Drawing.Point(729, 426);
-            this.StaffSearchTB.MaxLength = 32767;
-            this.StaffSearchTB.MouseState = MaterialSkin.MouseState.OUT;
-            this.StaffSearchTB.Name = "StaffSearchTB";
-            this.StaffSearchTB.PasswordChar = '\0';
-            this.StaffSearchTB.PrefixSuffixText = null;
-            this.StaffSearchTB.ReadOnly = false;
-            this.StaffSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.StaffSearchTB.SelectedText = "";
-            this.StaffSearchTB.SelectionLength = 0;
-            this.StaffSearchTB.SelectionStart = 0;
-            this.StaffSearchTB.ShortcutsEnabled = true;
-            this.StaffSearchTB.Size = new System.Drawing.Size(293, 48);
-            this.StaffSearchTB.TabIndex = 27;
-            this.StaffSearchTB.TabStop = false;
-            this.StaffSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.StaffSearchTB.TrailingIcon = null;
-            this.StaffSearchTB.UseSystemPasswordChar = false;
-            // 
-            // StaffSearchBTN
-            // 
-            this.StaffSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.StaffSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.StaffSearchBTN.Depth = 0;
-            this.StaffSearchBTN.HighEmphasis = true;
-            this.StaffSearchBTN.Icon = null;
-            this.StaffSearchBTN.Location = new System.Drawing.Point(1043, 431);
-            this.StaffSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.StaffSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
-            this.StaffSearchBTN.Name = "StaffSearchBTN";
-            this.StaffSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.StaffSearchBTN.Size = new System.Drawing.Size(72, 36);
-            this.StaffSearchBTN.TabIndex = 26;
-            this.StaffSearchBTN.Text = "Поиск";
-            this.StaffSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.StaffSearchBTN.UseAccentColor = false;
-            this.StaffSearchBTN.UseVisualStyleBackColor = true;
-            this.StaffSearchBTN.Click += new System.EventHandler(this.StaffSearchBTN_Click);
-            // 
-            // materialLabel8
-            // 
-            this.materialLabel8.AutoSize = true;
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel8.Location = new System.Drawing.Point(743, 405);
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(143, 19);
-            this.materialLabel8.TabIndex = 31;
-            this.materialLabel8.Text = "Поисковая строка:";
-            // 
-            // ClientSearchTB
-            // 
-            this.ClientSearchTB.AnimateReadOnly = false;
-            this.ClientSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.ClientSearchTB.Depth = 0;
-            this.ClientSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.ClientSearchTB.HideSelection = true;
-            this.ClientSearchTB.Hint = "Введите запрашиваемое значение";
-            this.ClientSearchTB.LeadingIcon = null;
-            this.ClientSearchTB.Location = new System.Drawing.Point(743, 427);
-            this.ClientSearchTB.MaxLength = 32767;
-            this.ClientSearchTB.MouseState = MaterialSkin.MouseState.OUT;
-            this.ClientSearchTB.Name = "ClientSearchTB";
-            this.ClientSearchTB.PasswordChar = '\0';
-            this.ClientSearchTB.PrefixSuffixText = null;
-            this.ClientSearchTB.ReadOnly = false;
-            this.ClientSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ClientSearchTB.SelectedText = "";
-            this.ClientSearchTB.SelectionLength = 0;
-            this.ClientSearchTB.SelectionStart = 0;
-            this.ClientSearchTB.ShortcutsEnabled = true;
-            this.ClientSearchTB.Size = new System.Drawing.Size(293, 48);
-            this.ClientSearchTB.TabIndex = 30;
-            this.ClientSearchTB.TabStop = false;
-            this.ClientSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.ClientSearchTB.TrailingIcon = null;
-            this.ClientSearchTB.UseSystemPasswordChar = false;
-            // 
-            // ClientSearch
-            // 
-            this.ClientSearch.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSearch.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.ClientSearch.Depth = 0;
-            this.ClientSearch.HighEmphasis = true;
-            this.ClientSearch.Icon = null;
-            this.ClientSearch.Location = new System.Drawing.Point(1057, 432);
-            this.ClientSearch.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.ClientSearch.MouseState = MaterialSkin.MouseState.HOVER;
-            this.ClientSearch.Name = "ClientSearch";
-            this.ClientSearch.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.ClientSearch.Size = new System.Drawing.Size(72, 36);
-            this.ClientSearch.TabIndex = 29;
-            this.ClientSearch.Text = "Поиск";
-            this.ClientSearch.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.ClientSearch.UseAccentColor = false;
-            this.ClientSearch.UseVisualStyleBackColor = true;
-            this.ClientSearch.Click += new System.EventHandler(this.ClientSearch_Click);
-            // 
-            // materialLabel9
-            // 
-            this.materialLabel9.AutoSize = true;
-            this.materialLabel9.Depth = 0;
-            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel9.Location = new System.Drawing.Point(615, 404);
-            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel9.Name = "materialLabel9";
-            this.materialLabel9.Size = new System.Drawing.Size(143, 19);
-            this.materialLabel9.TabIndex = 34;
-            this.materialLabel9.Text = "Поисковая строка:";
-            // 
-            // ndvSearchTB
-            // 
-            this.ndvSearchTB.AnimateReadOnly = false;
-            this.ndvSearchTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ndvSearchTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.ndvSearchTB.Depth = 0;
-            this.ndvSearchTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.ndvSearchTB.HideSelection = true;
-            this.ndvSearchTB.Hint = "Введите запрашиваемое значение";
-            this.ndvSearchTB.LeadingIcon = null;
-            this.ndvSearchTB.Location = new System.Drawing.Point(615, 426);
-            this.ndvSearchTB.MaxLength = 32767;
-            this.ndvSearchTB.MouseState = MaterialSkin.MouseState.OUT;
-            this.ndvSearchTB.Name = "ndvSearchTB";
-            this.ndvSearchTB.PasswordChar = '\0';
-            this.ndvSearchTB.PrefixSuffixText = null;
-            this.ndvSearchTB.ReadOnly = false;
-            this.ndvSearchTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ndvSearchTB.SelectedText = "";
-            this.ndvSearchTB.SelectionLength = 0;
-            this.ndvSearchTB.SelectionStart = 0;
-            this.ndvSearchTB.ShortcutsEnabled = true;
-            this.ndvSearchTB.Size = new System.Drawing.Size(293, 48);
-            this.ndvSearchTB.TabIndex = 33;
-            this.ndvSearchTB.TabStop = false;
-            this.ndvSearchTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.ndvSearchTB.TrailingIcon = null;
-            this.ndvSearchTB.UseSystemPasswordChar = false;
-            // 
-            // ndvSearchBTN
-            // 
-            this.ndvSearchBTN.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ndvSearchBTN.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.ndvSearchBTN.Depth = 0;
-            this.ndvSearchBTN.HighEmphasis = true;
-            this.ndvSearchBTN.Icon = null;
-            this.ndvSearchBTN.Location = new System.Drawing.Point(929, 431);
-            this.ndvSearchBTN.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.ndvSearchBTN.MouseState = MaterialSkin.MouseState.HOVER;
-            this.ndvSearchBTN.Name = "ndvSearchBTN";
-            this.ndvSearchBTN.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.ndvSearchBTN.Size = new System.Drawing.Size(72, 36);
-            this.ndvSearchBTN.TabIndex = 32;
-            this.ndvSearchBTN.Text = "Поиск";
-            this.ndvSearchBTN.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.ndvSearchBTN.UseAccentColor = false;
-            this.ndvSearchBTN.UseVisualStyleBackColor = true;
-            this.ndvSearchBTN.Click += new System.EventHandler(this.ndvSearchBTN_Click);
             // 
             // MainMenu
             // 
@@ -4111,5 +4201,9 @@ namespace Diplom
         private MaterialSkin.Controls.MaterialLabel materialLabel9;
         private MaterialSkin.Controls.MaterialTextBox2 ndvSearchTB;
         private MaterialSkin.Controls.MaterialButton ndvSearchBTN;
+        private MaterialSkin.Controls.MaterialButton ndvRandomiseBTN;
+        private MaterialSkin.Controls.MaterialButton carRandomiseBTN;
+        private MaterialSkin.Controls.MaterialButton endCarRandomiseBTN;
+        private MaterialSkin.Controls.MaterialButton endNdvRandomiseBTN;
     }
 }

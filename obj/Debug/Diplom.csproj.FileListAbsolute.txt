@@ -1,0 +1,14 @@
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.Authorization.resources
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+C:\Users\DedMo\source\repos\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\DedMo\source\repos\Diplom\bin\Debug\Diplom.exe
+C:\Users\DedMo\source\repos\Diplom\bin\Debug\Diplom.pdb
+C:\Users\DedMo\source\repos\Diplom\bin\Debug\MaterialSkin.dll
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.exe
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.pdb
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.MainMenu.resources
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.OperatorCall.resources
+C:\Users\DedMo\source\repos\Diplom\obj\Debug\Diplom.csproj.AssemblyReference.cache
