@@ -1,6 +1,6 @@
 # Security-agency
 
-Programm to simulate control of securited subjects in security agency
+Programm to simulate control of secured property in security agency
 
 ![Ilustration to project](https://github.com/OSMINOZH/Security-agency/blob/master/Screenshots/1.png)
 ![Ilustration to project](https://github.com/OSMINOZH/Security-agency/blob/master/Screenshots/2.png)
